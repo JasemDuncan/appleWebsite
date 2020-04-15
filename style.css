@@ -1,16 +1,18 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: transparent;
   color: white;
 }
-.MainContent{
+
+.MainContent {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
-.Main{
+
+.Main {
   display: flex;
   flex-flow: column;
   height: 855px;
@@ -24,10 +26,11 @@
   width: 1029px;
   height: 540px;
   background-image: url("img/2people.jpg");
-  background-size:  1440px 1315px;
+  background-size: 1440px 1315px;
   background-position: 50% 100%;
-  padding: 0px;
+  padding: 0;
 }
+
 .Part1 {
   display: flex;
   justify-content: center;
@@ -45,16 +48,10 @@
   width: 980px;
   height: 38px;
   border-radius: 4px;
-  background: linear-gradient(to bottom, rgb(138,138,138) , rgb(95,95,95) , rgb(138,138,138) );
-  box-shadow: rgb(255,255,255,0.298);
+  background: linear-gradient(to bottom, rgb(138, 138, 138), rgb(95, 95, 95), rgb(138, 138, 138));
+  box-shadow: rgb(255, 255, 255, 0.298);
 }
-ul li a {
-  text-decoration: none;
-}
-ul li{
-  list-style-type: none;
-  display: inline-block;
-}
+
 ul a {
   color: rgb(219, 219, 219);
   display: block;
@@ -65,24 +62,32 @@ ul a {
   line-height: 30px;
   width: 100px;
 }
+
+ul li a {
+  text-decoration: none;
+}
+
 li {
   border-right: 1px solid rgb(87, 87, 87);
 }
 
-.liSearch{
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.liSearch {
   text-decoration: none;
   list-style-type: none;
   border-right: none;
 }
 
-.aSearch{
-  text-decoration: none;
-}
-.aSearch{
-  width: 125px; 
-  cursor: default;  
+.aSearch {
+  width: 125px;
+  cursor: default;
   padding: 0;
-  padding-left: 10px;        
+  padding-left: 10px;
+  text-decoration: none;
 }
 
 .inputSearch {
@@ -93,14 +98,14 @@ li {
   background-position: left;
   background-position-x: 5px;
   background-size: 12px;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   border: 2px solid rgb(87, 87, 87);
 }
 
-.appleLogo{
+.appleLogo {
   margin-left: 10px;
   margin-bottom: -4px;
-  width: 15px;                
+  width: 15px;
 }
 
 .Part3 {
@@ -112,8 +117,8 @@ li {
 .Part4 {
   display: flex;
   justify-content: center;
-  height: 97px; 
-  font-size: 50px;   
+  height: 97px;
+  font-size: 50px;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -131,7 +136,7 @@ li {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.Every{
+.Every {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -171,15 +176,14 @@ li {
   width: 1030px;
 }
 
-.imgContent
-{
+.imgContent {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  width: 1030px;        
+  width: 1030px;
 }
 
-.iPhone5s{
+.iPhone5s {
   background-image: url("img/5s.jpg");
   width: 260px;
   height: 203px;
@@ -238,10 +242,10 @@ li {
 .Shop {
   display: flex;
   width: 485px;
-  color: rgb(152,152,152);
+  color: rgb(152, 152, 152);
 }
 
-.aFooter{
+.aFooter {
   color: rgb(68, 161, 212);
   text-decoration: none;
 }
@@ -249,7 +253,7 @@ li {
 .Site {
   display: flex;
   width: 500px;
-  color: rgb(152,152,152);
+  color: rgb(152, 152, 152);
 }
 
 .SiteBlue {
@@ -287,7 +291,7 @@ li {
   display: flex;
   justify-content: flex-start;
   height: 32px;
-  color: rgb(152,152,152);
+  color: rgb(152, 152, 152);
   font-size: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
