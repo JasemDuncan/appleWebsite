@@ -4,7 +4,7 @@
 
 ![screenshot](./img/Apple-Site-Clone-by-JasemValencia.png)
 
-The website is a clone of Apple Site.
+The website is a clone of Apple Old Site, this a PR for understand and practice how to use gradient and background image.
 
 ## Built With
 
@@ -22,9 +22,10 @@ The website is a clone of Apple Site.
 
 👤 **Jasem Duncan Valencia Vargas**
 
+- Mail:[jasemvalencia@gmail.com]()
 - Github: [@githubhandle](https://github.com/JasemDuncan)
 - Twitter: [@twitterhandle](https://twitter.com/JasemValencia)
-- Linkedin: [linkedin](www.linkedin.com/in/Jasem-Duncan-Valencia)
+- Linkedin: [@linkedin](www.linkedin.com/in/Jasem-Duncan-Valencia)
 
 
 
