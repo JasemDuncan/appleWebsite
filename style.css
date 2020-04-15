@@ -82,14 +82,6 @@ ul li {
   border-right: none;
 }
 
-.aSearch {
-  width: 125px;
-  cursor: default;
-  padding: 0;
-  padding-left: 10px;
-  text-decoration: none;
-}
-
 .inputSearch {
   width: 100px;
   height: 20px;
