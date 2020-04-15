@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: white;
+}
+
+.MainContent {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Main {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 855px;
+  width: 1440px;
+}
+
+.Background {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 1440px;
+  height: 540px;
+  background-image: url("img/2people.jpg");
+  background-size: 100% 1315px;
+  background-position: 50% 100%;
+}
+
+.Part1 {
+  display: flex;
+  justify-content: center;
+  height: 88px;
+  width: 1030px;
+}
+
+.Part2 {
+  display: flex;
+  justify-content: center;
+  height: 38px;
+}
+
+.MenuBar {
+  display: inline-block;
+  width: 1030px;
+  height: 38px;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, rgb(138, 138, 138), rgb(95, 95, 95), rgb(138, 138, 138));
+  box-shadow: rgb(255, 255, 255, 0.298);
+}
+
+ul a {
+  color: rgb(219, 219, 219);
+  display: block;
+  padding: 0 25px;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  line-height: 30px;
+  width: 100px;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+li {
+  margin: 3px 0 0 5px;
+  border-right: 1px solid rgb(87, 87, 87);
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.liSearch {
+  text-decoration: none;
+  list-style-type: none;
+  border-right: none;
+}
+
+.inputSearch {
+  width: 110px;
+  height: 20px;
+  border-radius: 15px;
+  background-image: url("img/search.png");
+  background-position: left;
+  background-position-x: 10px;
+  background-size: 12px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(87, 87, 87);
+}
+
+.appleLogo {
+  margin-left: 10px;
+  margin-bottom: -4px;
+  width: 17px;
+}
+
+.Part3 {
+  display: flex;
+  justify-content: center;
+  height: 29px;
+}
+
+.Part4 {
+  display: flex;
+  justify-content: center;
+  height: 97px;
+  font-size: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Part5 {
+  display: flex;
+  justify-content: center;
+  height: 8px;
+}
+
+.Part6 {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Every {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 750px;
+}
+
+.Part7 {
+  display: flex;
+  justify-content: center;
+  height: 28px;
+}
+
+.Part8 {
+  display: flex;
+  justify-content: center;
+  height: 32px;
+  font-size: 26px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Part9 {
+  display: flex;
+  justify-content: center;
+  height: 51px;
+}
+
+.Part10 {
+  display: flex;
+  justify-content: center;
+  height: 94px;
+}
+
+.Part11 {
+  display: flex;
+  justify-content: center;
+  height: 203px;
+  width: 1440px;
+}
+
+.imgContent {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 1440px;
+}
+
+.iPhone5s {
+  display: flex;
+  background-image: url("img/5s.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin-right: 2px;
+  text-indent: -9999px;
+}
+
+.picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+}
+
+.iPhone5c {
+  display: block;
+  background-image: url("img/5c.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-right: 2px;
+}
+
+.Happy {
+  display: flex;
+  background-image: url("img/Happy.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-right: 2px;
+}
+
+.Supplier {
+  display: flex;
+  background-image: url("img/supplier.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.Part12 {
+  display: flex;
+  justify-content: center;
+  height: 12px;
+  width: 1030px;
+}
+
+.Part13 {
+  display: flex;
+  justify-content: center;
+  height: 29px;
+  width: 1030px;
+}
+
+.Part14 {
+  display: flex;
+  justify-content: center;
+  height: 31px;
+  color: slategrey;
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ShopSite {
+  display: flex;
+  justify-content: space-between;
+  width: 1030px;
+}
+
+.Shop {
+  display: flex;
+  justify-content: space-between;
+  width: 485px;
+  color: rgb(152, 152, 152);
+}
+
+.aFooter {
+  color: rgb(68, 161, 212);
+  text-decoration: none;
+}
+
+.Site {
+  display: flex;
+  width: 500px;
+  color: rgb(152, 152, 152);
+}
+
+.SiteBlue {
+  color: rgb(68, 161, 212);
+  text-decoration: none;
+  padding-right: 5px;
+  margin-left: 5px;
+  font-size: 10px;
+  height: 12px;
+  border-right: 1px solid rgb(204, 204, 204);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.SiteBlueLast {
+  color: rgb(68, 161, 212);
+  text-decoration: none;
+  padding-right: 5px;
+  margin-left: 5px;
+  font-size: 10px;
+  height: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.imgUsa {
+  width: 15px;
+}
+
+.Part15 {
+  display: flex;
+  justify-content: center;
+  height: 15px;
+  width: 1030px;
+}
+
+.Part16 {
+  display: flex;
+  justify-content: center;
+  height: 32px;
+}
+
+.Copyright {
+  display: flex;
+  justify-content: flex-start;
+  width: 1030px;
+  color: rgb(152, 152, 152);
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Part17 {
+  display: flex;
+  justify-content: center;
+  height: 58px;
+  width: 1030px;
+}
