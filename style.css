@@ -10,31 +10,33 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+  justify-content: center;
 }
 
 .Main {
   display: flex;
   flex-flow: column;
+  justify-content: center;
   height: 855px;
-  width: 1030px;
+  width: 1440px;
 }
 
 .Background {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 1029px;
+  width: 1440px;
   height: 540px;
   background-image: url("img/2people.jpg");
-  background-size: 1440px 1315px;
+  background-size: 100% 1315px;
   background-position: 50% 100%;
-  padding: 0;
 }
 
 .Part1 {
   display: flex;
   justify-content: center;
   height: 88px;
+  width: 1030px;
 }
 
 .Part2 {
@@ -45,7 +47,7 @@
 
 .MenuBar {
   display: inline-block;
-  width: 980px;
+  width: 1030px;
   height: 38px;
   border-radius: 4px;
   background: linear-gradient(to bottom, rgb(138, 138, 138), rgb(95, 95, 95), rgb(138, 138, 138));
@@ -68,6 +70,7 @@ ul li a {
 }
 
 li {
+  margin: 3px 0 0 5px;
   border-right: 1px solid rgb(87, 87, 87);
 }
 
@@ -83,12 +86,12 @@ ul li {
 }
 
 .inputSearch {
-  width: 100px;
+  width: 110px;
   height: 20px;
   border-radius: 15px;
   background-image: url("img/search.png");
   background-position: left;
-  background-position-x: 5px;
+  background-position-x: 10px;
   background-size: 12px;
   background-repeat: no-repeat;
   border: 2px solid rgb(87, 87, 87);
@@ -97,7 +100,7 @@ ul li {
 .appleLogo {
   margin-left: 10px;
   margin-bottom: -4px;
-  width: 15px;
+  width: 17px;
 }
 
 .Part3 {
@@ -111,7 +114,7 @@ ul li {
   justify-content: center;
   height: 97px;
   font-size: 50px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .Part5 {
@@ -124,15 +127,15 @@ ul li {
   display: flex;
   justify-content: center;
   height: 75px;
-  font-size: 24px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .Every {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 850px;
+  width: 750px;
 }
 
 .Part7 {
@@ -145,8 +148,8 @@ ul li {
   display: flex;
   justify-content: center;
   height: 32px;
-  font-size: 22px;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 26px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .Part9 {
@@ -165,74 +168,90 @@ ul li {
   display: flex;
   justify-content: center;
   height: 203px;
-  width: 1030px;
+  width: 1440px;
 }
 
 .imgContent {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
-  width: 1030px;
+  width: 1440px;
 }
 
 .iPhone5s {
+  display: flex;
   background-image: url("img/5s.jpg");
-  width: 260px;
-  height: 203px;
-  background-position: 50% 100%;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   margin-right: 2px;
+  text-indent: -9999px;
+}
+
+.picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
 }
 
 .iPhone5c {
+  display: block;
   background-image: url("img/5c.jpg");
   background-repeat: no-repeat;
-  width: 260px;
-  height: 203px;
-  background-position: 50% 100%;
+  width: 100%;
+  height: 100%;
   margin-right: 2px;
 }
 
 .Happy {
+  display: flex;
   background-image: url("img/Happy.jpg");
   background-repeat: no-repeat;
-  width: 260px;
-  height: 203px;
-  background-position: 50% 100%;
+  width: 100%;
+  height: 100%;
   margin-right: 2px;
 }
 
 .Supplier {
+  display: flex;
   background-image: url("img/supplier.jpg");
   background-repeat: no-repeat;
-  width: 260px;
-  height: 203px;
-  background-position: 50% 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .Part12 {
   display: flex;
   justify-content: center;
   height: 12px;
+  width: 1030px;
 }
 
 .Part13 {
   display: flex;
   justify-content: center;
   height: 29px;
+  width: 1030px;
 }
 
 .Part14 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 31px;
   color: slategrey;
   font-size: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.ShopSite {
+  display: flex;
+  justify-content: space-between;
+  width: 1030px;
+}
+
 .Shop {
   display: flex;
+  justify-content: space-between;
   width: 485px;
   color: rgb(152, 152, 152);
 }
@@ -277,12 +296,19 @@ ul li {
   display: flex;
   justify-content: center;
   height: 15px;
+  width: 1030px;
 }
 
 .Part16 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   height: 32px;
+}
+
+.Copyright {
+  display: flex;
+  justify-content: flex-start;
+  width: 1030px;
   color: rgb(152, 152, 152);
   font-size: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -292,4 +318,5 @@ ul li {
   display: flex;
   justify-content: center;
   height: 58px;
+  width: 1030px;
 }
