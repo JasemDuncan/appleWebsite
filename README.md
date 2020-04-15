@@ -14,7 +14,7 @@ The website is a clone of Apple Site.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/appleWebsite/80c0ad5dcd3f7e018476c01e2f17eb604151d1ff/index.html)
+[Live Demo Link](https://rawcdn.githack.com/JasemDuncan/appleWebsite/e1e32b0e41e08d8dca6ffb0f401bd9ab1bc5d661/index.html)
 
 
 
